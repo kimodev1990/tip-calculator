@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button-desgin {
+    @apply bg-Very-dark-cyan text-white text-2xl py-3 rounded-md hover:bg-Strong-cyan focus:bg-Strong-cyan hover:text-Very-dark-cyan focus:text-Very-dark-cyan;
+  }
+
+  .button-custom-design {
+    @apply bg-Very-dark-cyan text-white text-2xl py-3 rounded-md hover:bg-Strong-cyan focus:bg-white hover:text-Very-dark-cyan focus:text-Very-dark-cyan placeholder:text-white placeholder:focus:text-white placeholder:hover:text-Very-dark-cyan outline-Strong-cyan text-center;
+  }
+
+  .show-error-border {
+    @apply border border-red-600;
+  }
+}
